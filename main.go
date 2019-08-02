@@ -4,10 +4,10 @@ import (
 	// Import the generated protobuf code
 	"errors"
 	"fmt"
-	k8s "github.com/micro/examples/kubernetes/go/micro"
 	"github.com/micro/go-micro"
 	"github.com/micro/go-micro/metadata"
 	"github.com/micro/go-micro/server"
+	k8s "github.com/micro/kubernetes/go/micro"
 	pb "github.com/wizofgoz/shippy-consignment-service/proto/consignment"
 	userService "github.com/wizofgoz/shippy-user-service/proto/user"
 	vesselProto "github.com/wizofgoz/shippy-vessel-service/proto/vessel"
